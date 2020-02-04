@@ -1,0 +1,112 @@
+@import url('https://cdn.rawgit.com/innks/NanumSquareRound/master/nanumsquareround.min.css');
+
+*{box-sizing: border-box;}
+
+.popup-list::-webkit-scrollbar {
+      display: none; 
+}
+
+#container::-webkit-scrollbar {
+      display: none; 
+}
+
+#container {
+  display: block;
+  position: relative;
+  top: 180px;
+  width: 1020px;
+  height: 550px;
+  margin: 0 auto;
+
+}
+
+.popup-list {
+  display: block;
+  overflow-y: auto;
+  overflow-x: hidden;
+  width: 1020px;
+  height: 550px;
+}
+
+.popup-list li {
+  border-radius: 10px;
+  background-color: #ffffff;
+  margin-bottom: 10px;
+}
+.popup-list a {
+  display: inline-block;
+  width: 1020px;
+  height: 64px;
+  padding-left: 20px;
+  border-radius: 10px;
+  font-weight: 800;
+  font-size: 24px;
+  line-height: 64px;
+  font-family: 'NanumSquareRound',sans-serif;
+  background-color: #ffffff;
+  cursor: pointer;
+}
+
+
+.notice-container {
+  display: none;
+  width: 1020px;
+  border-radius: 0 0 10px 10px;
+  background-color: #ffffff;
+  padding-bottom: 10px;
+  margin-bottom: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 32px;
+  font-family: 'NanumSquareRound',sans-serif;
+  margin: 0 auto;
+}
+
+.popup-list span {
+  display: inline-block;
+  float: right;
+  width: 100px;
+  margin-right: 20px;
+  font-weight: 700;
+  font-size: 18px;
+  text-align: center;
+  color: #111111;
+}
+
+.popup-list a {
+  text-decoration: none;
+  color: #222222;
+}
+
+#btn-close1 {
+  display: block;
+  position: absolute;
+  top: 20px;
+  left: 1185px;
+  z-index: 20;
+  border: none;
+  cursor: pointer;
+  outline: none;  
+  border: 0;
+  -webkit-tap-highlight-color: rgba(0,0,0,0);
+}
+
+a.nor{
+  color: #a74d02 !important;
+}
+
+.notice_bg_front_l{
+  display: inline-block;
+  position: absolute;
+  top: 622px;
+  left: 0;
+    }
+
+.notice_bg_front_r{
+  display: inline-block;
+  position: absolute;
+  top: 502px;
+  right: 0;
+}
